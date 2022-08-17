@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background-color: var(--tmdbDarkBlue);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+  padding: 0 2rem;
+
+  li {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+}
+
+.primary {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .language {
+    color: white;
+    border: 1px solid white;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+  }
+  .language:hover {
+    background-color: white;
+    transition: all 0.3s;
+
+    a {
+      color: black;
+    }
+  }
+}
+
+.logo {
+  width: 9.625rem;
+  height: 1.25rem;
+}
+
+.plus {
+  width: 1.25rem;
+  height: 1.25rem;
+}
