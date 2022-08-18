@@ -1,6 +1,8 @@
-import '../Header/styles.scss'
+import  '../Header/styles.scss';
 import logoImg from '../../assets/logo.svg';
-import plusImg from '../../assets/plus.svg'
+import plusImg from '../../assets/plus.svg';
+import searchImg from '../../assets/search.svg';
+
 export default function Header() {
     return (
         <>
@@ -27,8 +29,12 @@ export default function Header() {
                     </div>
                     <a href="#">Inicial Sessão</a>
                     <a href="#">Aderir ao TMDB</a>
+                    
+                    <img className='search' src={searchImg} alt="search"/>
+
                 </div>
             </header>
+
         </>
     );
 }

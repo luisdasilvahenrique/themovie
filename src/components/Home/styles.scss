@@ -1,0 +1,60 @@
+.container-home {
+  display: flex;
+  align-items: center;
+  background-color: var(--accountBlue);
+  height: 18rem;
+}
+
+.content-home {
+  width: 100%;
+  color: white;
+
+  padding: 0 2.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+}
+
+.search-home {
+  width: 100%;
+  position: relative;
+
+  margin-top: 3rem;
+
+  input {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.25rem;
+  }
+
+  .search-btn-home {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    height: 2.5rem;
+
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+    border-radius: 1.875rem;
+    border: none;
+
+    background: linear-gradient(
+      to right,
+      var(--tmdbLightGreen) 0%,
+      var(--tmdbLightBlue) 110%
+    );
+  }
+}

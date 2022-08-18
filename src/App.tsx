@@ -1,10 +1,8 @@
-import Header from "./components/Header/Header"
+import Home from "./components/Home/Home";
 import './global.scss';
 
-function App() {
+export default function App() {
   return (
-    <Header />
+    <Home />
   )
 }
-
-export default App
