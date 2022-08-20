@@ -1,5 +1,6 @@
 import './styles.scss'
 import Header from "../Header/Header";
+import SliderList from '../SliderList/SliderList';
 
 export default function Home(){
     return(
@@ -12,11 +13,13 @@ export default function Home(){
                     <h2>Milhões de filmes, séries e pessoas para descobrir. Explore já.</h2>
 
                     <div className="search-home">
-                        <input type="text" />
+                        <input placeholder='Pesquisar por um filme, uma série televisiva, uma pessoa......' type="text" />
                         <button className='search-btn-home'> Search </button>
                     </div>
                 </section>
             </div>
+
+        <SliderList />
         </>
     );
 }

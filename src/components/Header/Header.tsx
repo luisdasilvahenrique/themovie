@@ -11,7 +11,7 @@ export default function Header() {
                 <div className='content'>
                     <img className='logo' src={logoImg} alt="logo" />
 
-                    <ul>
+                    <ul className='nav-header'>
                         <li>Filmes</li>
                         <li>Séries</li>
                         <li>Pessoas</li>
