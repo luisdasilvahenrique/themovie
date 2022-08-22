@@ -1,16 +1,15 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 0.9rem;
   background-color: var(--tmdbDarkBlue);
 }
 
 .content {
   display: flex;
   align-items: center;
-  font-size: 1rem;
   color: white;
-  padding: 0 2rem;
+  padding: 0 1rem;
 
   li {
     display: inline-block;

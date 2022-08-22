@@ -19,7 +19,7 @@ export default function Home(){
                 </section>
             </div>
 
-        <SliderList />
+        <SliderList title={'Os mais populares'} category={['Streaming', 'Na TV', 'Para Alugar', 'Nos Cinemas']}/>
         </>
     );
 }
