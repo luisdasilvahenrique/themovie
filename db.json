@@ -1,0 +1,55 @@
+{
+  "movies":[
+      {
+          "id":1,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/aeJHkkrDvbXPB25NghNbv5kUBVi.jpg",
+          "title":"Sorte",
+          "rate":81,
+          "released-date":"05/08/22"
+      },{
+          "id":2,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/mY7SeH4HFFxW1hiI6cWuwCRKptN.jpg",
+          "title":"The Boys",
+          "rate":85,
+          "released-date":"25/07/19"
+      },{
+          "id":3,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg",
+          "title":"Homem-Aranha: Sem Volta Para Casa",
+          "rate":80,
+          "released-date":"05/08/22"
+      },{
+          "id":4,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg",
+          "title":"Breaking Bad: A QuÃ­mica do Mal",
+          "rate":88,
+          "released-date":"28/01/08"
+      },{
+          "id":5,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/eO0QV5qJaEngP1Ax9w3eV6bJG2f.jpg",
+          "title":"Halo",
+          "rate":85,
+          "released-date":"24/03/22"
+      },{
+          "id":6,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/tWtGNTJUAuiM2O9wv0jejw45Sji.jpg",
+          "title":"A Anatomia de Grey",
+          "rate":83,
+          "released-date":"24/03/22"
+      }
+      ,{
+          "id":7,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/jtLB7xJKcbekmOYkb5NZditBsgk.jpg",
+          "title":"The Good Doctor: O Bom Doutor",
+          "rate":85,
+          "released-date":"25/07/17"
+      }
+      ,{
+          "id":8,
+          "image-movie":"https://www.themoviedb.org/t/p/w220_and_h330_face/l2ezB41chGDjXcKo24lseuXYtKP.jpg",
+          "title":"Game of Thrones",
+          "rate":84,
+          "released-date":"17/04/11"
+      }
+  ]
+}
