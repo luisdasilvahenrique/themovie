@@ -16,12 +16,11 @@
     ul {
       margin: 0 1rem;
       border-radius: 3rem;
-      border: 1.5px solid var(--tmdbDarkBlue);
+      border: 1px solid var(--tmdbDarkBlue);
     }
     li {
       display: inline-block;
-      margin-left: 1rem;
-      margin-right: 1rem;
+      padding: 1px 1rem;
       font-size: 1rem;
       font-weight: 500;
     }
@@ -31,10 +30,14 @@
       color: var(--tmdbDarkBlue);
     }
 
-    .wrap-slider a:hover {
+    .IsActive {
+      background-color: var(--tmdbDarkBlue);
+      border-radius: 3rem;
+    }
+    .IsActive a{
       background: linear-gradient(to right, #c0fecf 0%, #1ed5a9 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    }    
+    }
   }
 }

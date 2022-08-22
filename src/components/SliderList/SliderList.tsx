@@ -30,7 +30,7 @@ export default function SliderList({ title, category }: SliderListProps) {
                         category.map(category => {
                             return (
                                 <li id={category}>
-                                    <a 
+                                    <a
                                     href="#" 
                                     key={category}
                                     onClick={() => handleChangeButton(category)}>{category}</a>
