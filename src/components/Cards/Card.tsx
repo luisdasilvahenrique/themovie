@@ -7,31 +7,36 @@ interface CardProps {
     image: string
     title: string;
     rate: number;
-    created_at: Date;
+    created_at: string;
 }
 
 export default function Card() {
 
-    // const [movies, setMovies] = useState<CardProps[]>([]);
+    const [movies, setMovies] = useState<CardProps[]>([]);
 
-    // useEffect(() => {
-    //   axios.get('http://localhost:3000/movies')
-    //   .then(response => {
-    //     setMovies(response.data);
-    //   })
-    // }, [])
+    useEffect(() => {
+        axios.get('http://localhost:3000/movies')
+            .then(response => {
+                setMovies(response.data);
+            })
+    }, [])
 
-    // key={id}
+    // 
     return (
         <div className="card-container-scroll">
-            <div className="card-content">
-                <img src='https://www.themoviedb.org/t/p/w220_and_h330_face/aeJHkkrDvbXPB25NghNbv5kUBVi.jpg' alt="" />
-                <div className="info">
-                    <span>81</span>
-                    <p>05/08/22</p>
-                    <h3>Sorte</h3>
-                </div>
-            </div>
+            {movies.map(movie => {
+                return (
+                    <div key={movie.id} className="card-content">
+                        <img src={movie.image} alt="" />
+                        <div className="info">
+                            <span>{movie.rate}%</span>
+                            <h3>{movie.title}</h3>
+                            <p>{movie.created_at}</p>
+                        </div>
+                    </div>  
+                )
+            })
+            }
         </div>
     );
 }

@@ -6,7 +6,7 @@ interface SliderListProps {
     category: string[];
 }
 
-export default function SliderList({ title, category }: SliderListProps) {
+export default function SliderList({ title, category}: SliderListProps) {
     
     function handleChangeButton(id:string) {
         const ListCategory = category.map(category => {
@@ -45,7 +45,7 @@ export default function SliderList({ title, category }: SliderListProps) {
             </div>
         </div>
 
-        <Card />
+        <Card/>
         </>
     )
 }
