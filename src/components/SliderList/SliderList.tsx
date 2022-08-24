@@ -1,3 +1,4 @@
+import Card from '../Cards/Card';
 import './styles.scss'
 
 interface SliderListProps {
@@ -21,6 +22,8 @@ export default function SliderList({ title, category }: SliderListProps) {
     }
 
     return (
+
+        <>
         <div className="container-slider">
             <div className="header-slider">
                 <h1>{title}</h1>
@@ -41,5 +44,8 @@ export default function SliderList({ title, category }: SliderListProps) {
                 </ul>
             </div>
         </div>
+
+        <Card />
+        </>
     )
 }
