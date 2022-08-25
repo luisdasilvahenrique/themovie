@@ -2,11 +2,12 @@ import './styles.scss'
 import Header from "../Header/Header";
 import SliderList from '../SliderList/SliderList';
 
+// https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg
+
 export default function Home(){
     return(
         <>
         <Header />
-
             <div className="container-home">
                 <section className='content-home'>
                     <h1>Bem-vindo(a).</h1>

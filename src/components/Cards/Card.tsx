@@ -1,10 +1,11 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './styles.scss'
+import '../../global.scss';
 
 interface CardProps {
     id: number;
-    image: string
+    image: string;
     title: string;
     rate: number;
     created_at: string;
