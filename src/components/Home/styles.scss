@@ -1,10 +1,10 @@
 .container-home {
   display: flex;
   align-items: center;
-  // background-color: var(--accountBlue);
+  height: 18rem;
+
   background: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg"); 
   background-size: cover;
-  height: 18rem;
 }
 .content-home {
   width: 100%;

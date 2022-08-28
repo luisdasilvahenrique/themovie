@@ -12,8 +12,21 @@
     .card-content {
         margin: 0 auto;
         .info {
+            position: relative;
             margin-top: 1rem;
-            text-align: center;   
+            text-align: center;
+            
+            span {
+                position: absolute;
+                margin: -2.2rem  -4rem;
+
+
+                height: 1.875rem;
+                width: 1.875rem;
+                background-color: green;
+                border-radius: 50%;
+
+            }
         }
         img {
             width: 9.375rem;
@@ -21,10 +34,7 @@
             border-radius: 1rem;
             margin-right: 1.2rem;
         }
-        
     }  
 }
-
- 
 
 
