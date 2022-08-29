@@ -4,7 +4,7 @@
           "id":1,
           "image":"https://www.themoviedb.org/t/p/w220_and_h330_face/aeJHkkrDvbXPB25NghNbv5kUBVi.jpg",
           "title":"Sorte",
-          "rate":81,
+          "rate":53,
           "created_at":"05/08/22"
       },{
           "id":2,
@@ -48,7 +48,7 @@
           "id":8,
           "image":"https://www.themoviedb.org/t/p/w220_and_h330_face/l2ezB41chGDjXcKo24lseuXYtKP.jpg",
           "title":"Game of Thrones",
-          "rate":84,
+          "rate":13,
           "created_at":"17/04/11"
       },{
         "id":9,
