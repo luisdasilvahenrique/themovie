@@ -1,6 +1,7 @@
 import './styles.scss'
 import Header from "../Header/Header";
 import SliderList from '../SliderList/SliderList';
+import Footer from '../Footer/Footer';
 
 // https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg
 
@@ -21,6 +22,7 @@ export default function Home(){
             </div>
 
         <SliderList title={'Os mais populares'} category={['Streaming', 'Na TV', 'Para Alugar', 'Nos Cinemas']}/>
+        <Footer />
         </>
     );
 }

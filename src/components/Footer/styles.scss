@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem 1rem;
+    border-radius: 0.5rem;
+
+    padding: 3rem;
+
+    background-color: var(--tmdbDarkBlue);
+    .social-media {
+        align-items: center;
+        li {
+            display: inline-block;
+            a {
+                text-decoration: none;
+                margin-right: 1.5rem;
+                color: white;
+            }
+        }
+    }
+}
