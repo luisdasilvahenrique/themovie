@@ -24,7 +24,6 @@ export default function Card() {
             })
     }, [])
 
-    // 
     return (
         <div className="card-container-scroll">
             {movies.map(movie => {
