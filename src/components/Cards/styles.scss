@@ -2,44 +2,50 @@
     display: flex;
     max-width: 100%;
 
-    margin: 0 2.5rem; 
-    margin-top: 1rem; 
-    margin-bottom: 3rem; 
+    margin: 0 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 
     gap: 1rem;
 
     overflow-y: hidden;
+
     .card-content {
         margin: 0 auto;
+
         .info {
             position: relative;
             margin-top: 1rem;
             text-align: center;
 
-            .peba{
+            .peba {
                 text-align: left;
 
-            h3{
-                font-size: medium;
-                font-weight: 500;
-            }
+                h3 {
+                    font-size: medium;
+                    font-weight: 500;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
 
             }
+
             span {
                 position: absolute;
-                margin: -2.2rem  -4rem;
-  
+                margin: -2.2rem -4rem;
+
                 height: 2rem;
                 width: 2rem;
             }
         }
+
         img {
             width: 9.375rem;
             height: 14.0625rem;
             border-radius: 1rem;
-        
+
         }
-    }  
+    }
 }
-
-

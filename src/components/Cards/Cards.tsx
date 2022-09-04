@@ -1,5 +1,7 @@
 import axios from "axios";
-import {format} from 'date-fns'
+import { format } from 'date-fns'
+import pt from "date-fns/locale/pt-BR";
+
 import { useEffect, useState } from "react";
 import "./styles.scss";
 import "../../global.scss";
@@ -39,14 +41,6 @@ export default function Cards({ search }: Props) {
     }
   }, [search]);
 
-  format(new Date(2014, 1, 11), 'yyyy-MM-dd')
-
-  const dates = [
-    new Date(1995, 6, 2),
-    new Date(1987, 1, 11),
-    new Date(1989, 6, 10),
-  ]
-
 
   return (
     <div className="card-container-scroll">
@@ -72,7 +66,7 @@ export default function Cards({ search }: Props) {
                     },
                     path: {
                       // Path color
-                      stroke: `rgb(1,210,119)`,
+                      stroke: `rgb(1,198,172)`,
                       // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
                       strokeLinecap: "butt",
                       // Customize transition animation
@@ -87,7 +81,11 @@ export default function Cards({ search }: Props) {
 
               <div className="peba">
                 <h3>{movie.title}</h3>
-                <p>{movie.created_at}</p>
+                <p>
+                  {format(new Date(movie["created_at"]), "dd 'de' MMM 'de' yyyy",
+                    { locale: pt }
+                  )}
+                </p>
               </div>
 
             </div>
