@@ -1,4 +1,4 @@
-import Card from "../Cards/Cards";
+import Cards from "../Cards/Cards";
 import "./styles.scss";
 
 interface SliderListProps {
@@ -42,7 +42,7 @@ export default function SliderList({
         </div>
       </div>
 
-      <Card {...{ search }} />
+      <Cards {...{ search }} />
     </>
   );
 }

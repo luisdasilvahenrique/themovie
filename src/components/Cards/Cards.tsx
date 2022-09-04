@@ -31,16 +31,12 @@ export default function Cards({ search }: Props) {
     })();
   }, []);
 
-  useEffect(() => {
+
     if (search) {
       filteredMovies = movies.filter((movie) => {
         return movie.title.toLowerCase().includes(search?.toLowerCase() || "");
       });
-
-      setMovies(filteredMovies);
     }
-  }, [search]);
-
 
   return (
     <div className="card-container-scroll">

@@ -25,7 +25,7 @@ export default function Home() {
               onChange={(event) => setSearch(event.currentTarget.value)}
             />
 
-            <button className="search-btn-home"> Search </button>
+            {/* <button className="search-btn-home"> Search </button> */}
           </div>
         </section>
       </div>
