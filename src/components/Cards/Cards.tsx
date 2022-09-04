@@ -1,4 +1,5 @@
 import axios from "axios";
+import {format} from 'date-fns'
 import { useEffect, useState } from "react";
 import "./styles.scss";
 import "../../global.scss";
@@ -17,7 +18,7 @@ interface Props {
   search?: string;
 }
 
-export default function Card({ search }: Props) {
+export default function Cards({ search }: Props) {
   const [movies, setMovies] = useState<CardProps[]>([]);
   let filteredMovies = movies;
 
@@ -37,6 +38,15 @@ export default function Card({ search }: Props) {
       setMovies(filteredMovies);
     }
   }, [search]);
+
+  format(new Date(2014, 1, 11), 'yyyy-MM-dd')
+
+  const dates = [
+    new Date(1995, 6, 2),
+    new Date(1987, 1, 11),
+    new Date(1989, 6, 10),
+  ]
+
 
   return (
     <div className="card-container-scroll">
@@ -75,8 +85,11 @@ export default function Card({ search }: Props) {
                 />
               </span>
 
-              <h3>{movie.title}</h3>
-              <p>{movie.created_at}</p>
+              <div className="peba">
+                <h3>{movie.title}</h3>
+                <p>{movie.created_at}</p>
+              </div>
+
             </div>
           </div>
         );

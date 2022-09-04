@@ -1,4 +1,4 @@
-import Card from "../Cards/Card";
+import Card from "../Cards/Cards";
 import "./styles.scss";
 
 interface SliderListProps {
